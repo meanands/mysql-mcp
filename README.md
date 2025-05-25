@@ -1,4 +1,5 @@
 # SQL MCP Server for Claude Desktop
+[![smithery badge](https://smithery.ai/badge/@meanands/mysql-mcp)](https://smithery.ai/server/@meanands/mysql-mcp)
 
 A natural language interface to your local MySQL databases through Claude Desktop. This MCP (Machine Communication Protocol) server allows Claude to execute SQL queries on your local MySQL databases, enabling you to interact with your databases using natural language.
 
@@ -20,6 +21,15 @@ A natural language interface to your local MySQL databases through Claude Deskto
 
 ## Installation
 
+### Installing via Smithery
+
+To install SQL Server for Claude Desktop for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@meanands/mysql-mcp):
+
+```bash
+npx -y @smithery/cli install @meanands/mysql-mcp --client claude
+```
+
+### Manual Installation
 1. Clone this repository:
 ```bash
 git clone git@github.com:meanands/mysql-mcp.git
